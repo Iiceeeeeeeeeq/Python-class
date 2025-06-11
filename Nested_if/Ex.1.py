@@ -3,3 +3,15 @@
     #    แสดงผลว่า "ผ่านเกณฑ์รับทุนการศึกษา" แต่ถ้า GPA น้อยกว่า 3.50 
     #    ให้แสดงผลว่า "ไม่ผ่านเกณฑ์รับทุนการศึกษา (GPA ต่ำ)"
     # 2. ถ้าอายุน้อยกว่า 18 ปี ให้แสดงว่า "ไม่ผ่านเกณฑ์รับทุนการศึกษา (อายุน้อยเกินไป)"
+
+AGE = int(input("How old are you :"))
+GPA = float(input("What your GPA :"))
+
+if AGE >= 18 and GPA >= 3.5 :
+    print("Your are accepted")
+
+elif AGE >= 18 and GPA < 3.5 :
+    print("Your shall not passed")
+
+elif AGE < 18:
+    print("GO AWAY")
