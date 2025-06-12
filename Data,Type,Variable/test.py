@@ -10,7 +10,7 @@ import math
 # uj = int(parts[1])
 # uk = int(parts[2])
 # print(type(ui)) 
-# # v = int(input())
+v = int(input())
 ui,uj,uk = [float(e) for e in input().split()]
 vi,vj,vk = [float(e) for e in input().split()]
 dot = (ui*vi)+(uj*vj)+(uk*vk)
