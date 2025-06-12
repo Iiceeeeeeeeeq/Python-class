@@ -27,13 +27,13 @@ AGE = int(input("How old are you : "))
 
 #ข้อมูลเงื่อนไขที่ 2
 print("Q2 : Are you in any of the following risk groups? Please answer T(True) or F(False).")
-RISK_G1 = str(input("Are you pregnant? : "))
-RISK_G2 = str(input("Are you a healthcare worker? : "))
+RISK_G1 = str(input("Are you pregnant? : ")).upper()
+RISK_G2 = str(input("Are you a healthcare worker? : ")).upper()
 #ไม่ได้ใส่ผู้สูงอายุเพราะผู้สูงอายุหมายถึงบุคคลที่มีอายุ 60 ปีขึ้นไป เพราะงั้นจะประมวลผ่าน AGE
 
 #ข้อมูลเงื่อนไขที่ 3
 print("Q3 : Chronic Disease. Please answer T(True) or F(False).")
-CHRONIC = str(input("Do you have any chronic diseases? : "))
+CHRONIC = str(input("Do you have any chronic diseases? : ")).upper()
 
 if RISK_G2 == "T" and AGE >= 18:
     print("You are eligible for immediate vaccination.")
@@ -41,24 +41,30 @@ if RISK_G2 == "T" and AGE >= 18:
 elif RISK_G2 == "F" and RISK_G1 == "T":
 
     if AGE >= 18:
-        print("You are eligible for immediate vaccination.")
+        print("You are eligible for the vaccine.")
+
+    else:
+        print("You are not eligible yet.")
 
 elif RISK_G2 == "F" and RISK_G1 == "F" and CHRONIC == "T":
 
     if AGE >= 60:
-        print("You are eligible for immediate vaccination.")
+        print("You are eligible for the vaccine.")
     
     elif 18 <= AGE <= 59:
-        print("You are eligible for immediate vaccination.")
+        print("You are eligible for the vaccine.")
     
     else:
         print("You are not eligible yet.")
 
 elif RISK_G2 == "F" and RISK_G1 == "F" and CHRONIC == "F":
     if AGE >= 60:
-        print("You are eligible for immediate vaccination.")
+        print("You are eligible for the vaccine.")
     
     elif 18 <= AGE <= 59:
+        print("Call in queue order.")
+
+    else:
         print("You are not eligible yet.")
 
 else:
