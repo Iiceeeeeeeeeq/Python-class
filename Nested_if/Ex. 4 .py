@@ -46,21 +46,22 @@ elif RISK_G2 == "F" and RISK_G1 == "T":
     else:
         print("You are not eligible yet.")
 
-elif RISK_G2 == "F" and RISK_G1 == "F" and CHRONIC == "T":
-
+elif RISK_G2 == "F" and RISK_G1 == "F" and CHRONIC == "T": 
+    
     if AGE >= 60:
         print("You are eligible for the vaccine.")
-    
+
     elif 18 <= AGE <= 59:
         print("You are eligible for the vaccine.")
-    
+
     else:
         print("You are not eligible yet.")
 
 elif RISK_G2 == "F" and RISK_G1 == "F" and CHRONIC == "F":
+    
     if AGE >= 60:
         print("You are eligible for the vaccine.")
-    
+
     elif 18 <= AGE <= 59:
         print("Call in queue order.")
 

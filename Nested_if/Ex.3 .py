@@ -38,7 +38,7 @@ if GENDER == "M" or GENDER == "F":
                 if INTERVIEW_SCORE >= 80:
                     # (Interview Score) มากกว่าหรือเท่ากับ 80 ถึงจะผ่าน
                     print("You have been selected.")
-    
+                    
                 else:
                     print("You were not selected.")
 
