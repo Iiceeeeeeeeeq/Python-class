@@ -27,11 +27,11 @@ if GENDER == "M" or GENDER == "F":
 
             # ประสบการณ์ทำงาน (Experience)
             if EXPERIENCE >= 3:
-            # ถ้ามีประสบการณ์ มากกว่าหรือเท่ากับ 3 ปี จะได้รับการพิจารณาพิเศษ
+                # ถ้ามีประสบการณ์ มากกว่าหรือเท่ากับ 3 ปี จะได้รับการพิจารณาพิเศษ
                 print("You have passed the special selection.")
 
             elif EXPERIENCE < 3:
-            # ถ้ามีประสบการณ์ น้อยกว่า 3 ปี จะต้องมีคะแนนสอบสัมภาษณ์
+                # ถ้ามีประสบการณ์ น้อยกว่า 3 ปี จะต้องมีคะแนนสอบสัมภาษณ์
                 print("As you have under 3 years of experience, we’ll proceed with an interview.")
                 INTERVIEW_SCORE = float(input("Your interview score is : "))
 
