@@ -19,7 +19,7 @@ if GENDER == "M" or GENDER == "F":
 
     # อายุ (Age) - ต้องอยู่ระหว่าง 22 ถึง 35 ปี
     if 22 <= AGE <= 35:
-        DEGREE = str(input("Your degree :"))
+        DEGREE = str(input("Your degree : "))
 
         # วุฒิการศึกษา (Degree) - ต้องเป็นอย่างน้อยปริญญาตรี (Bachelor)
         if DEGREE == "Bachelor" or DEGREE == "Master's degree" or DEGREE == "Doctoral degree":
