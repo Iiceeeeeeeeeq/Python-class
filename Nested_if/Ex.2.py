@@ -9,12 +9,12 @@
 AGE = int(input("How old are you :"))
 GPA = float(input("What your GPA :"))
 
-if 17 <= AGE <= 25 :
+if 17 <= AGE <= 25:
 
-    if  GPA >= 3.5 :
+    if  GPA >= 3.5:
         print("รับตรงพิเศษ")
     
-    elif 3.0 <= GPA < 3.5 :
+    elif 3.0 <= GPA < 3.5:
         print("รอบปกติ")
     
     else:
