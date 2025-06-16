@@ -15,4 +15,5 @@ print("shape_tuple1[:3]",shape_tuple1[:3])
 
 shape_color=shape_tuple1+color_tuple2
 print(shape_color)
+print(type(shape_tuple1))
 

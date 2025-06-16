@@ -9,8 +9,8 @@
 
 #Ex.1 หาด้าน c จากพีทากอรัส
 import math
-a = float(input())
-b = float(input())
-c = math.sqrt(a**2+b**2)
+# a = float(input())
+# b = float(input())
+c = math.sqrt(8)
 
-print ("ความยาวด้าน c =" ,c,"(m.)")
+print (c)
