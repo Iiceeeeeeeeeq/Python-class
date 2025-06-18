@@ -2,3 +2,5 @@
 #     for i in range(times):
 #         print(f"{i+1}: {name}")
 # repeat_name("Kai", 3) 
+a = "str"
+type(a)
