@@ -8,4 +8,8 @@ while number != 8:
     elif number < 8:
         print("incorrect, try higher number")
     else:
+<<<<<<< HEAD
         print("CORRECT!")
+=======
+        print("CORRECT!")
+>>>>>>> 15661a26b27b32f87a1a822ad5977d622c6b2b0a

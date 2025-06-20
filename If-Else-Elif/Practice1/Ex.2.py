@@ -14,4 +14,8 @@ elif d < r1 + r2:
     print("overlap")
 
 else:
+<<<<<<< HEAD
     print("free")
+=======
+    print("free")
+>>>>>>> 15661a26b27b32f87a1a822ad5977d622c6b2b0a
