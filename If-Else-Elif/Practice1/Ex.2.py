@@ -15,3 +15,5 @@ elif d < r1 + r2:
 
 else:
     print("free")
+
+
