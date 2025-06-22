@@ -5,3 +5,4 @@ if x**3 == a:
     print(x)
 else:
     print("not found")
+
